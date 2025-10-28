@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
 import Greeting from './components/Greeting';
+import Team from './components/Team';
 import UserList from './components/UserList';
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
     <>
       <div style={{ textAlign: 'center', padding: '20px' }}>
         <Greeting name='Team React Learners' />
-        <UserList style={{}} users={users} />
+        <Team title='Development Team' members={users} />
         <Counter />
       </div>
     </>
