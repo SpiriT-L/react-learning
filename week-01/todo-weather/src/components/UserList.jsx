@@ -1,16 +1,9 @@
+import React from 'react';
 import UserCard from './UserCard';
 
 export default function UserList({ users }) {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        gap: '20px',
-        flexWrap: 'wrap',
-        marginTop: '20px',
-      }}
-    >
+    <div>
       {users.map(user => (
         <UserCard
           key={user.id}
