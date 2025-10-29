@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import React from 'react';
 
 export default function NameInput() {
-  const [name, setName] = useState('');
+  const [name, setName] = React.useState('');
 
   return (
-    <div style={{ marginTop: '40px' }}>
+    <div>
       <h2>Type your name:</h2>
       <input
         type='text'
