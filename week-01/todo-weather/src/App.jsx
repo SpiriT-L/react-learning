@@ -1,7 +1,9 @@
 import './App.css';
 import Counter from './components/Counter';
 import Greeting from './components/Greeting';
+import NameInput from './components/NameInput';
 import Team from './components/Team';
+import TodoApp from './components/TodoApp';
 import UserList from './components/UserList';
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <Greeting name='Team React Learners' />
         <Team title='Development Team' members={users} />
         <Counter />
+        <NameInput />
+        <TodoApp />
       </div>
     </>
   );
